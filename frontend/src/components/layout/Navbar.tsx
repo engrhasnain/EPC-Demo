@@ -20,9 +20,7 @@ export function Navbar() {
     <header className="bg-brand-black">
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6 lg:px-8">
         <div className="flex items-center gap-3">
-          <div className="flex items-center rounded-md bg-white px-2 py-1">
-            <Image src="/zenthic-logo.jpeg" alt="Zenthic" width={96} height={36} className="h-6 w-auto" />
-          </div>
+          <Image src="/zenthic-logo-dark.png" alt="Zenthic" width={120} height={32} className="h-7 w-auto" />
           <span className="text-sm font-semibold tracking-wide text-white">
             AI EPC Operations Intelligence
           </span>
